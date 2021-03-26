@@ -1,0 +1,33 @@
+[
+  {
+    "source": "^user create booking information for \"([^\"]*)\" with \"([^\"]*)\" having \"([^\"]*)\" with \\\"([^\\\"]*)\\\" for \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "user create booking information for \"Confirm_Shipment_Closed_TPDOC\" with \"PACKGE\" having \"test\" with \"N\" for \"BB\"",
+        "aggregatedDurations": {
+          "average": 24.8034236,
+          "median": 24.8034236
+        },
+        "durations": [
+          {
+            "duration": 24.8034236,
+            "location": "regSubmission.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "user create booking information for \"Issue_Verify_Copy_of_TPDOC_Closed\" with \"PACKGE\" having \"carton\" with \"N\" for \"BB\"",
+        "aggregatedDurations": {
+          "average": 22.7446784,
+          "median": 22.7446784
+        },
+        "durations": [
+          {
+            "duration": 22.7446784,
+            "location": "regSubmission.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

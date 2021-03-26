@@ -1,0 +1,110 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 831523000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To check the creation BOL using post call",
+        "description": "",
+        "id": "processing-japan-advance-compliances-in-gms;to-check-the-creation-bol-using-post-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 191746400,
+              "error_message": "java.lang.NullPointerException\r\n\tat apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)\r\n\tat stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)\r\n\tat ✽.Then call Get Bol service to validate(japancompliance.feature:7)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#When BOL data is post using post call"
+              }
+            ],
+            "line": 7,
+            "name": "call Get Bol service to validate",
+            "match": {
+              "location": "APItestStepDef.call_Get_Bol_service_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@APIcall01"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 884400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To check the creation BOL using post call",
+        "description": "",
+        "id": "processing-japan-advance-compliances-in-gms;to-check-the-creation-bol-using-post-call",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 252000,
+              "error_message": "java.lang.NullPointerException\r\n\tat apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)\r\n\tat stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)\r\n\tat ✽.Then call Get Bol service to validate(japancompliance.feature:7)\r\n",
+              "status": "failed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "#When BOL data is post using post call"
+              }
+            ],
+            "line": 7,
+            "name": "call Get Bol service to validate",
+            "match": {
+              "location": "APItestStepDef.call_Get_Bol_service_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@APIcall01"
+          }
+        ]
+      }
+    ],
+    "name": "Processing Japan Advance compliances in GMS",
+    "description": "",
+    "id": "processing-japan-advance-compliances-in-gms",
+    "keyword": "Feature",
+    "uri": "japancompliance.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@GCDBOLAPI"
+      }
+    ]
+  }
+]

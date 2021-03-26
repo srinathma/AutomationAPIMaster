@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="48.025368">
+<testcase classname="Processing DQE" name="submission for BB booking" time="25.28029">
+<system-out><![CDATA[When user create booking information for "Confirm_Shipment_Closed_TPDOC" with "PACKGE" having "test" with "N" for "BB".passed
+]]></system-out>
+</testcase>
+<testcase classname="Processing DQE" name="submission for BB booking 2" time="22.745078">
+<system-out><![CDATA[When user create booking information for "Issue_Verify_Copy_of_TPDOC_Closed" with "PACKGE" having "carton" with "N" for "BB".passed
+]]></system-out>
+</testcase>
+</testsuite>

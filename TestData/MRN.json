@@ -1,0 +1,15 @@
+{
+"transportDocumentNumber": "507311283",
+"vesselCode": "F6M",
+"arrivalVoyageNumber": "042E",
+"complianceReceiverPort": "DKAARPT",
+"mrnCustomsNumber": "20FI000001117448I6",
+"departureVoyageNumber": "042E",
+"dischargePort": "DEBRVTM",
+"complianceStatus": "Ok",
+"complianceLoadStatus": "OK",
+"customsResponseReason": "Ok",
+"sentTimeStamp": "2020-10-25 15:20:43",
+"entryPortETA": "2020-10-27 04:00:00",
+"isAttached":"Y"
+}

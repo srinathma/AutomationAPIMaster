@@ -1,0 +1,162 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 476866300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "submission for BB booking",
+        "description": "",
+        "id": "processing-dqe;submission-for-bb-booking;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 24803423600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user create booking information for \"Confirm_Shipment_Closed_TPDOC\" with \"PACKGE\" having \"test\" with \"N\" for \"BB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm_Shipment_Closed_TPDOC",
+                  "offset": 37
+                },
+                {
+                  "val": "PACKGE",
+                  "offset": 74
+                },
+                {
+                  "val": "test",
+                  "offset": 90
+                },
+                {
+                  "val": "N",
+                  "offset": 102
+                },
+                {
+                  "val": "BB",
+                  "offset": 110
+                }
+              ],
+              "location": "APItestStepDef.user_create_a_post_body_for_with_having_with(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regDQE06BBbookingreg"
+          },
+          {
+            "line": 1,
+            "name": "@regGCDDRegsubmission"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 399400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeHooks(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "submission for BB booking",
+        "description": "",
+        "id": "processing-dqe;submission-for-bb-booking;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22744678400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user create booking information for \"Issue_Verify_Copy_of_TPDOC_Closed\" with \"PACKGE\" having \"carton\" with \"N\" for \"BB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Issue_Verify_Copy_of_TPDOC_Closed",
+                  "offset": 37
+                },
+                {
+                  "val": "PACKGE",
+                  "offset": 78
+                },
+                {
+                  "val": "carton",
+                  "offset": 94
+                },
+                {
+                  "val": "N",
+                  "offset": 108
+                },
+                {
+                  "val": "BB",
+                  "offset": 116
+                }
+              ],
+              "location": "APItestStepDef.user_create_a_post_body_for_with_having_with(String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regDQE06BBbookingreg"
+          },
+          {
+            "line": 1,
+            "name": "@regGCDDRegsubmission"
+          }
+        ]
+      }
+    ],
+    "name": "Processing DQE",
+    "description": "",
+    "id": "processing-dqe",
+    "keyword": "Feature",
+    "uri": "regSubmission.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regGCDDRegsubmission"
+      }
+    ]
+  }
+]

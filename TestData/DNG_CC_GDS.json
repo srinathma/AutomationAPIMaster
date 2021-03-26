@@ -1,0 +1,164 @@
+{
+  "eventType": "Issue_Verify_Copy_of_TPDOC_Closed",
+  "key": "GCS005065",
+  "data":{
+  "bolNumber": "GCS005065",
+  "bolInstanceId": "E95JLJXIL09KB",
+  "isIVCReceived": false,
+  "operatorCode": "SAF",
+  "isHitchment": false,
+  "isHouse": false,
+  "houseBills": [],
+  "isDelete": null,
+  "isSplit": null,
+  "isCompleted": null,
+  "archiveInd": null,
+  "isCancel": null,
+  "isImportShipmentBOL": false,
+  "originalBOLNumberForSplit": null,
+  "loadPortRouteSequence": 1,
+  "isTransportDocLevelPrinting": false,
+  "scacCode": "SAFM",
+  "updateStructTime": 1590983850412,
+  "createdDate": null,
+  "createdBy": null,
+  "lastModifiedDate": null,
+  "modifiedBy": null,
+  "placeOfReceipt": "SAJED",
+  "placeOfDelivery": "DEBRV",
+  "cargoOrigin": null,
+  "cargoOriginTranslated": null,
+  "cargoDestination": null,
+  "cargoDestinationTranslated": null,
+  "printedPlaceOfReceipt": null,
+  "printedPlaceOfDelivery": null,
+  "printedLoadPortValues": null,
+  "printedDischargePortValue": null,
+  "placeOfIssue": null,
+  "dateOfIssue": null,
+  "shippedOnBoardDate": null,
+  "billType": "TPDoc, negotiable, received for shipment",
+  "references": null,
+  "shipments": [
+    {
+      "shipmentNumber": "GCS005065",
+      "shipmentVersionInstance": "M7JC1NWIL09KB",
+      "receiptCargoMode": "CC",
+      "receiptDeliveryMode": "CC",
+      "isDangerous": false,
+      "isORR": false,
+      "operationalReferenceNumber": null,
+      "businessUnitCode": "DKCPHMSL1",
+      "businessEmail": "Ruchi.Verma@maersk.com",
+      "parties": [
+        {
+          "cmdCustomerId": "DK00007951",
+          "docAddress": "GCSS BOOKED BY DAMPFAERGEVEJ 21 PAKHUS 2ND FLOOR DK 2100 COPENHAGEN Copenhagen 2100 Denmark",
+          "roleType": "SH",
+          "roleDescription": "Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "DK00007951",
+          "docAddress": "GCSS BOOKED BY DAMPFAERGEVEJ 21 PAKHUS ",
+          "roleType": "CN",
+          "roleDescription": "Consignee",
+          "customerInformation": null
+        }
+      ],
+      "houseBills": [],
+      "equipments": null,
+      "cargos": [
+        "U23BLJXIL09KB"
+      ],
+      "route": {
+        "instanceId": "ZI0J5NWIL09KB",
+        "routeLinks": [
+          {
+             "transportMode": "MVS",
+              "movementType": "DT",
+              "routeLinkSequence": 1,
+              "vesselCode": "5X7",
+              "vesselIMO": null,
+              "importVoyage": "1327",
+              "exportVoyage": "1327",
+              "serviceCode": "SLB",
+              "waterLandMode": "W",
+              "isOutOfContractScope": false,
+              "routeStartPoint": {
+                "geoCode": "0MZSJ9SROEGKD",
+                "siteName": "Terminal1",
+                "pointSequence": "1",
+                "siteCode": "FIHELST",
+                "cityCode": "SEA",
+                "country": null
+              },
+              "routeEndPoint": {
+                "geoCode": "2LME4YKE32WZJ",
+                "siteName": "Terminal2",
+                "pointSequence": "2",
+                "siteCode": "FIKTKCT",
+                "cityCode": "SEG",
+                "country": null
+              },
+              "compliances": null
+          }
+        ]
+      },
+      "shipmentFreights": null
+    }
+  ],
+  "equipments": null,
+  "cargos": [
+    {
+      "instanceId": "U23BLJXIL09KB",
+      "commodityCode": "001401",
+      "commodityDescription": "Candles, tapers",
+      "sequence": 1,
+      "cargoClassification": null,
+      "weightKgs": "67.000",
+      "weightLbs": "147.710",
+      "hsCode": "111111",
+      "measureCbm": "67.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": null,
+      "descriptions": [
+        {
+          "instanceId": "9Q5CLJXIL09KB",
+          "cargoDesc": "Customer Defined",
+          "cargoDescText": "msl",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "GB2R0YYIL08KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "dfrt",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "6OOS0YYIL08KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "34rty",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "N2ODLJXIL09KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Special Cargo Package",
+          "packageStyleAltText": "",
+          "cargoPackageType": {
+            "cargoTypeCode": "4",
+            "cargoTypeDescription": "Break Bulk"
+          }
+        }
+      ],
+      "equipmentStuffings": null,
+      "dangerousDetails": []
+    }
+  ]
+},
+  "eventCreatedAt": "2020-04-18T09:27:26.892016700"
+}

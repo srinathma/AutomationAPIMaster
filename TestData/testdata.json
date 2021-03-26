@@ -1,0 +1,7 @@
+{
+
+"uri":"https://gcd-route-enrichment.azurewebsites.net/v1/routeEnrichment",
+"eventType":"CREATE",
+"key": "GCS001002",
+"encodingType":"UTF-8"
+}

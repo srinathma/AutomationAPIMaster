@@ -1,0 +1,457 @@
+{
+  "eventType": "CREATE",
+  "key": "GCS001002",
+  "data": {
+  "bolNumber": "GCS001002",
+  "bolInstanceId": "IJHE5RU1G08KB",
+  "isIVCReceived": false,
+  "operatorCode": "MSK",
+  "isHitchment": false,
+  "isHouse": false,
+  "houseBills": [],
+  "isDelete": null,
+  "isSplit": null,
+  "isCompleted": null,
+  "archiveInd": null,
+  "isCancel": null,
+  "isImportShipmentBOL": false,
+  "originalBOLNumberForSplit": null,
+  "loadPortRouteSequence": 1,
+  "isTransportDocLevelPrinting": false,
+  "scacCode": "MAEU",
+  "updateStructTime": 1583469496072,
+  "createdDate": null,
+  "createdBy": null,
+  "lastModifiedDate": null,
+  "modifiedBy": null,
+  "placeOfReceipt": "GBFXS",
+  "placeOfDelivery": "SEGOT01",
+  "cargoOrigin": null,
+  "cargoOriginTranslated": null,
+  "cargoDestination": null,
+  "cargoDestinationTranslated": null,
+  "printedPlaceOfReceipt": null,
+  "printedPlaceOfDelivery": null,
+  "printedLoadPortValues": null,
+  "printedDischargePortValue": null,
+  "placeOfIssue": null,
+  "dateOfIssue": null,
+  "shippedOnBoardDate": null,
+  "billType": "TPDoc, negotiable, received for shipment",
+  "shipments": [
+    {
+      "shipmentNumber": "GCS010013",
+      "shipmentVersionInstance": "2JMK9PU1G09KB",
+      "receiptCargoMode": "CY",
+      "receiptDeliveryMode": "CY",
+      "isDangerous": false,
+      "businessUnitCode": "DKCPHMSL1",
+      "businessEmail": "NMI045@maersk.com",
+      "parties": [
+        {
+          "cmdCustomerId": "AU2800058",
+          "docAddress": "BHARAT HEAVY ELECTRICALS LTDrn14-15TH FLOOR, WORLD TRADE CENTRErnMUMBAI 400005rnMumbairn400005rn27rnIndia",
+          "roleType": "SH",
+          "roleDescription": "Shipper",
+          "customerInformation": null
+        },
+        {
+          "cmdCustomerId": "AU2800058",
+          "docAddress": "BHARAT HEAVY ELECTRICALS LTDrn14-15TH FLOOR, WORLD TRADE CENTRErnMUMBAI 400005rnMumbairn400005rn27rnIndia",
+          "roleType": "CN",
+          "roleDescription": "Consignee",
+          "customerInformation": null
+        }
+      ],
+      "houseBills": [],
+      "equipments": [
+        "UHWU4RU1G08KB",
+        "IJURN5U1G09KB",
+        "BSNTUUU1G09KB"
+      ],
+      "cargos": [
+        "22AUN5U1G09KB",
+        "ER5A5RU1G08KB",
+        "EZMFATU1G08KB",
+        "MWXUUUU1G09KB"
+      ],
+      "route": {
+        "instanceId": "JE5BFQU1G09KB",
+        "routeLinks": [
+          {
+            "transportMode": "MVS",
+            "movementType": "DT",
+            "routeLinkSequence": 1,
+            "vesselCode": "0YF",
+            "vesselIMO": null,
+            "importVoyage": "011E",
+            "exportVoyage": "012W",
+            "serviceCode": "SLB",
+            "waterLandMode": "W",
+            "isOutOfContractScope": false,
+            "routeStartPoint": {
+              "geoCode": "0MZSJ9SROEGKD",
+              "siteName": "Terminal1",
+              "pointSequence": "1",
+              "siteCode": "FIHELST",
+              "cityCode": "SEA",
+              "country": null
+            },
+            "routeEndPoint": {
+              "geoCode": "2LME4YKE32WZJ",
+              "siteName": "Terminal2",
+              "pointSequence": "2",
+              "siteCode": "DEHAMBK",
+              "cityCode": "SEG",
+              "country": null
+            },
+            "compliances": null
+          },
+          {
+            "transportMode": "MVS",
+            "movementType": "FD",
+            "vesselCode": "0YF",
+            "vesselIMO": null,
+            "routeLinkSequence": 2,
+            "importVoyage": "011E",
+            "exportVoyage": "012W",
+            "serviceCode": "SLB",
+            "waterLandMode": "W",
+            "isOutOfContractScope": false,
+            "routeStartPoint": {
+              "geoCode": "0MZSJ9SROEGKD",
+              "siteName": "Terminal2",
+              "pointSequence": "2",
+              "siteCode": "SEHAD01",
+              "cityCode": "SEH",
+              "country": null
+            },
+            "routeEndPoint": {
+              "geoCode": "2LME4YKE32WZJ",
+              "siteName": "Terminal3",
+              "pointSequence": "3",
+              "siteCode": "SEGOT01",
+              "cityCode": "SEG",
+              "country": null
+            },
+            "compliances": null
+          }
+        ]
+      }
+    }
+  ],
+  "equipments": [
+    {
+      "instanceId": "UHWU4RU1G08KB",
+      "isoCode": "22G1",
+      "equipmentGrossWeightKgs": "3020.000",
+      "equipmentGrossWeightLbs": "6657.960",
+      "verifiedGrossMassKgs": null,
+      "verifiedGrossMassLbs": null,
+     "customerWeightKgs": "1000.000",
+      "customerWeightLbs": "2204.623",
+      "tareWeightKgs": "2020.000",
+      "totalVolume": "2000.0000",
+      "totalPackageCount": "11",
+      "totalWeightKgs": "3020.000",
+      "totalWeightLbs": "6657.960",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "containerType": "DRY",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": "POT100",
+      "operationalEquipmentNumber": null,
+      "cargoList": [
+        "ER5A5RU1G08KB",
+        "EZMFATU1G08KB"
+      ],
+      "shipments": [
+        "2JMK9PU1G09KB"
+      ],
+      "seals": [
+        {
+          "sealNumber": "R4401",
+          "sealName": "Veterinarian Seal"
+        }
+      ]
+    },
+    {
+      "instanceId": "IJURN5U1G09KB",
+      "isoCode": "22G1",
+      "equipmentGrossWeightKgs": "2120.000",
+      "equipmentGrossWeightLbs": "4673.800",
+      "verifiedGrossMassKgs": null,
+      "verifiedGrossMassLbs": null,
+      "customerWeightKgs": "100.000",
+      "customerWeightLbs": "220.462",
+      "tareWeightKgs": "2020.000",
+      "totalVolume": "1200.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "2120.000",
+      "totalWeightLbs": "4673.800",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "containerType": "DRY",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": "DRY1000",
+      "operationalEquipmentNumber": null,
+      "cargoList": [
+        "22AUN5U1G09KB"
+      ],
+      "shipments": [
+        "2JMK9PU1G09KB"
+      ],
+      "seals": [
+        {
+          "sealNumber": "SEAL100",
+          "sealName": "Shipper Seal"
+        }
+      ]
+    },
+    {
+      "instanceId": "BSNTUUU1G09KB",
+      "isoCode": "22R1",
+      "equipmentGrossWeightKgs": "3960.000",
+      "equipmentGrossWeightLbs": "8730.306",
+      "verifiedGrossMassKgs": null,
+      "verifiedGrossMassLbs": null,
+      "customerWeightKgs": "1000.000",
+      "customerWeightLbs": "2204.623",
+      "tareWeightKgs": "2960.000",
+      "totalVolume": "1000.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "3960.000",
+      "totalWeightLbs": "8730.306",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "containerType": "REEF",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": "REEF100",
+      "operationalEquipmentNumber": null,
+      "cargoList": [
+        "MWXUUUU1G09KB"
+      ],
+      "shipments": [
+        "2JMK9PU1G09KB"
+      ],
+      "seals": [
+       {
+          "sealNumber": "900200",
+          "sealName": "Veterinarian Seal"
+        }
+      ]
+    }
+  ],
+  "cargos": [
+    {
+      "instanceId": "22AUN5U1G09KB",
+      "commodityCode": "002805",
+      "commodityDescription": "Pulping and papermaking derivatives, granular or liquid",
+      "sequence": 1,
+      "cargoClassification": null,
+      "weightKgs": "1000.000",
+      "weightLbs": "2204.623",
+      "hsCode": "440044",
+      "measureCbm": "1200.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": [
+        "IJURN5U1G09KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "RAORGKV1G09KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "This is cargo l",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "A4ASGKV1G09KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "The cargo is",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "RYMUN5U1G09KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "Bubble Wrap",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "FE6UN5U1G09KB",
+          "packageCount": "1",
+          "equipmentId": "IJURN5U1G09KB",
+          "weightKgs": "1000.000",
+          "weightLbs": "2204.623",
+          "isOOG": "Y",
+          "volumeCbm": "1200.0000",
+          "measureCbm": "1200.0000"
+        }
+      ],
+      "dangerousDetails": []
+    },
+    {
+      "instanceId": "ER5A5RU1G08KB",
+      "commodityCode": "0025",
+      "commodityDescription": "Miscellaneous manufactured materials",
+      "sequence": 2,
+      "cargoClassification": null,
+      "weightKgs": "1000.000",
+      "weightLbs": "2204.623",
+      "hsCode": "110011",
+      "measureCbm": "1000.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": [
+        "UHWU4RU1G08KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "2ZPUCMV1G09KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "This is cargo",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "TDEADMV1G09KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "The cargo ",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "PLAC5RU1G08KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "Carton",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "TRPC5RU1G08KB",
+          "packageCount": "1",
+          "equipmentId": "UHWU4RU1G08KB",
+          "weightKgs": "1000.000",
+          "weightLbs": "2204.623",
+          "isOOG": "N",
+          "volumeCbm": "1000.0000",
+          "measureCbm": "1000.0000"
+        }
+      ],
+      "dangerousDetails": []
+    },
+    {
+      "instanceId": "EZMFATU1G08KB",
+      "commodityCode": "001005",
+      "commodityDescription": "Mate",
+      "sequence": 3,
+      "cargoClassification": null,
+      "weightKgs": "1000.000",
+      "weightLbs": "2204.623",
+      "hsCode": "220022",
+      "measureCbm": "1000.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": [
+        "UHWU4RU1G08KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "5FKKGNV1G08KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "Box. Cargo",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "7LYLGNV1G08KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "Box. Cargo",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "I0BGATU1G08KB",
+          "packageCount": "10",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "box",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "UMRGATU1G08KB",
+          "packageCount": "10",
+          "equipmentId": "UHWU4RU1G08KB",
+          "weightKgs": "1000.000",
+          "weightLbs": "2204.623",
+          "isOOG": "N",
+          "volumeCbm": "1000.0000",
+          "measureCbm": "1000.0000"
+        }
+      ],
+      "dangerousDetails": []
+    },
+    {
+      "instanceId": "MWXUUUU1G09KB",
+      "commodityCode": "000618",
+      "commodityDescription": "Orange juice, frozen, foodstuff",
+      "sequence": 4,
+      "cargoClassification": null,
+      "weightKgs": "1000.000",
+      "weightLbs": "2204.623",
+      "hsCode": "330033",
+      "measureCbm": "1000.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": "Prepaid",
+      "equipments": [
+        "BSNTUUU1G09KB"
+      ],
+      "descriptions": [
+        {
+          "instanceId": "64OC4NV1G09KB",
+          "cargoDesc": "Marks and Numbers",
+          "cargoDescText": "Marks and numbes",
+          "tpdLevelInd": "N"
+        },
+        {
+          "instanceId": "JBHD4NV1G09KB",
+          "cargoDesc": "S/I Commodity Description",
+          "cargoDescText": "Cargo Kept ",
+          "tpdLevelInd": "N"
+        }
+      ],
+      "cargoPackages": [
+        {
+          "instanceId": "6VGVUUU1G09KB",
+          "packageCount": "12",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "Freezer",
+          "cargoPackageType": null
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "DCNAVUU1G09KB",
+          "packageCount": "1",
+          "equipmentId": "BSNTUUU1G09KB",
+          "weightKgs": "1000.000",
+          "weightLbs": "2204.623",
+          "isOOG": "N",
+          "volumeCbm": "1000.0000",
+          "measureCbm": "10001.0000"
+        }
+      ],
+      "dangerousDetails": []
+    }
+  ]
+},
+  "eventCreatedAt": "2020-05-20T04:27:26.892016700"
+}

@@ -1,0 +1,189 @@
+{
+  "eventType": "CREATE",
+  "key": "GCS005076",
+  "data": {
+  "bolNumber": "GCS005076",
+  "bolInstanceId": "M47FDWIEM08KB",
+  "isIVCReceived": false,
+  "operatorCode": "SEA",
+  "isHitchment": false,
+  "isHouse": false,
+  "houseBills": [],
+  "isDelete": null,
+  "isSplit": null,
+  "isCompleted": null,
+  "archiveInd": null,
+  "isCancel": null,
+  "isImportShipmentBOL": false,
+  "originalBOLNumberForSplit": null,
+  "loadPortRouteSequence": 1,
+  "isTransportDocLevelPrinting": false,
+  "scacCode": "SEAU",
+  "updateStructTime": 1592454120889,
+  "createdDate": null,
+  "createdBy": null,
+  "lastModifiedDate": null,
+  "modifiedBy": null,
+  "placeOfReceipt": "GBFXS",
+  "placeOfDelivery": "SEHAD01",
+  "cargoOrigin": null,
+  "cargoOriginTranslated": null,
+  "cargoDestination": null,
+  "cargoDestinationTranslated": null,
+  "printedPlaceOfReceipt": null,
+  "printedPlaceOfDelivery": null,
+  "printedLoadPortValues": null,
+  "printedDischargePortValue": null,
+  "placeOfIssue": null,
+  "dateOfIssue": null,
+  "shippedOnBoardDate": null,
+  "billType": "TPDoc, negotiable, received for shipment",
+  "references": null,
+  "shipments": [
+    {
+      "shipmentNumber": "GCS005069",
+      "shipmentVersionInstance": "ZXEH3TIEM09KB",
+      "receiptCargoMode": "CY",
+      "receiptDeliveryMode": "CY",
+      "isDangerous": false,
+      "businessUnitCode": "DKCPHMSL1",
+      "businessEmail": "Anshul.Aggarwal@maersk.com",
+      "parties": [],
+      "houseBills": [],
+      "equipments": [
+        "Q39RCWIEM08KB"
+      ],
+      "cargos": [
+        "QTFADWIEM08KB"
+      ],
+      "route": {
+        "instanceId": "BKRG9TIEM09KB",
+        "routeLinks": [
+          {
+        "transportMode": "MVS",
+              "movementType": "DT",
+              "routeLinkSequence": 1,
+              "vesselCode": "5X7",
+              "vesselIMO": null,
+              "importVoyage": "1327",
+              "exportVoyage": "1327",
+              "serviceCode": "SLB",
+              "waterLandMode": "W",
+              "isOutOfContractScope": false,
+              "routeStartPoint": {
+                "geoCode": "0MZSJ9SROEGKD",
+                "siteName": "Terminal1",
+                "pointSequence": "1",
+                "siteCode": "FIHELST",
+                "cityCode": "SEA",
+                "country": null
+              },
+              "routeEndPoint": {
+                "geoCode": "2LME4YKE32WZJ",
+                "siteName": "Terminal2",
+                "pointSequence": "2",
+                "siteCode": "FIKTKCT",
+                "cityCode": "SEG",
+                "country": null
+              },
+              "compliances": null
+          }
+        ]
+      },
+      "shipmentFreights": []
+    }
+  ],
+  "equipments": [
+    {
+      "instanceId": "Q39RCWIEM08KB",
+      "isoCode": "22B0",
+      "equipmentGrossWeightKgs": "2573.000",
+      "equipmentGrossWeightLbs": "5672.494",
+      "verifiedGrossMassKgs": null,
+      "verifiedGrossMassLbs": null,
+      "customerWeightKgs": "123.000",
+      "customerWeightLbs": "271.169",
+      "tareWeightKgs": "2450.000",
+      "totalVolume": "889.0000",
+      "totalPackageCount": "1",
+      "totalWeightKgs": "2573.000",
+      "totalWeightLbs": "5672.494",
+      "isShortShipped": true,
+      "isShipperOwned": true,
+      "isSOCEmpty": null,
+      "containerType": "BULK",
+      "containerSize": "20",
+      "equipmentNoWhenBooked": "CONT1",
+      "operationalEquipmentNumber": null,
+      "cargoList": [
+        "QTFADWIEM08KB"
+      ],
+      "shipments": [
+        "ZXEH3TIEM09KB"
+      ],
+      "equipmentFreights": [],
+      "seals": []
+    }
+  ],
+  "cargos": [
+    {
+      "instanceId": "QTFADWIEM08KB",
+      "commodityCode": "00",
+      "commodityDescription": "All",
+      "sequence": 0,
+      "cargoClassification": null,
+      "weightKgs": "456.000",
+      "weightLbs": "1005.308",
+      "hsCode": "123456",
+      "measureCbm": "889.0000",
+      "reeferTemperatureCelsius": null,
+      "freightPaymentMethod": null,
+      "equipments": [
+        "Q39RCWIEM08KB"
+      ],
+      "descriptions": [],
+      "cargoPackages": [
+        {
+          "instanceId": "YBCBDWIEM08KB",
+          "packageCount": "1",
+          "packageDescriptionType": "Standard Cargo Package",
+          "packageStyleAltText": "asdf",
+          "cargoPackageType": {
+            "cargoTypeCode": "2",
+            "cargoTypeDescription": "Dangerous or Hazardous"
+          }
+        }
+      ],
+      "equipmentStuffings": [
+        {
+          "instanceId": "8KCCDWIEM08KB",
+          "packageCount": "1",
+          "equipmentId": "Q39RCWIEM08KB",
+          "weightKgs": "456.000",
+          "weightLbs": "1005.308",
+          "isOOG": "N",
+          "volumeCbm": "889.0000",
+          "measureCbm": "889.0000"
+        }
+      ],
+      "dangerousDetails": [
+        {
+          "instanceId": "46ICZ3IEM08KB",
+          "undgNumber": "1109",
+          "dangGoodsCode": "3",
+          "contactPerson": "3345",
+          "phoneNumber": "2345678",
+          "isFinestLevel": "Y",
+          "flashPointC": "-11.1",
+          "dngClass": "UN Number",
+          "packageCount": "1",
+          "packageStyleAltText": "ALUMINIUM BOX",
+          "weightGrossKgs": "567.000",
+          "weightNetKgs": "567.000"
+        }
+      ]
+    }
+  ]
+},
+  "eventCreatedAt": "2020-04-18T09:27:26.892016700"
+}

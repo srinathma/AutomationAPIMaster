@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="1.024405">
+<testcase classname="Processing Japan Advance compliances in GMS" name="To check the creation BOL using post call" time="1.023269">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)&#13;&#10;&#9;at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)&#13;&#10;&#9;at ✽.Then call Get Bol service to validate(japancompliance.feature:7)&#13;&#10;"><![CDATA[Then call Get Bol service to validate.......................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)
+	at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)
+	at ✽.Then call Get Bol service to validate(japancompliance.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Processing Japan Advance compliances in GMS" name="To check the creation BOL using post call" time="0.001136">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)&#13;&#10;&#9;at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)&#13;&#10;&#9;at ✽.Then call Get Bol service to validate(japancompliance.feature:7)&#13;&#10;"><![CDATA[Then call Get Bol service to validate.......................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)
+	at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)
+	at ✽.Then call Get Bol service to validate(japancompliance.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+@regGCDDRegsubmission
+Feature: Processing DQE
+
+  @regDQE06BBbookingreg
+  Scenario Outline: submission for BB booking                                                                                  [90m# regSubmission.feature:5[0m
+    [36mWhen [0m[36muser create booking information for "<Event>" with "<parameter>" having "<value>" with "<dqeApplicable>" for "<type>"[0m
+
+    #Then call "getBOLService" for "<Event>" to validate with "<dqeApplicable>"
+    #Then call "getComplianceUsingTpdocandBOL" for "<Event>" to validate with "<dqeApplicable>"
+    Examples: 
+
+  @regDQE06BBbookingreg @regGCDDRegsubmission
+  Scenario Outline: submission for BB booking                                                                              [90m# regSubmission.feature:11[0m
+    [32mWhen [0m[32muser create booking information for "[0m[32m[1mConfirm_Shipment_Closed_TPDOC[0m[32m" with "[0m[32m[1mPACKGE[0m[32m" having "[0m[32m[1mtest[0m[32m" with "[0m[32m[1mN[0m[32m" for "[0m[32m[1mBB[0m[32m"[0m [90m# APItestStepDef.user_create_a_post_body_for_with_having_with(String,String,String,String,String)[0m
+
+  @regDQE06BBbookingreg @regGCDDRegsubmission
+  Scenario Outline: submission for BB booking                                                                                    [90m# regSubmission.feature:12[0m
+    [32mWhen [0m[32muser create booking information for "[0m[32m[1mIssue_Verify_Copy_of_TPDOC_Closed[0m[32m" with "[0m[32m[1mPACKGE[0m[32m" having "[0m[32m[1mcarton[0m[32m" with "[0m[32m[1mN[0m[32m" for "[0m[32m[1mBB[0m[32m"[0m [90m# APItestStepDef.user_create_a_post_body_for_with_having_with(String,String,String,String,String)[0m
