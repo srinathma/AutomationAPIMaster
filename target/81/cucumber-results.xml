@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.026564">
+<testcase classname="Amendment Creation,Submission and Validation" name="Amendment Validation for Container no. change" time="18.026564">
+<system-out><![CDATA[When user amends booking information for "Issue_Amended_Verify_Copy_of_TPDOC_Closed" with "utyyututu" having "UPDT12" with "AMD" for "general".passed
+]]></system-out>
+</testcase>
+</testsuite>

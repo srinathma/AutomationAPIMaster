@@ -1,0 +1,22 @@
+@GCDBOLAPI
+Feature: Processing Japan Advance compliances in GMS
+
+  @APIcall01
+  Scenario: To check the creation BOL using post call [90m# japancompliance.feature:5[0m
+    #When BOL data is post using post call
+    [31mThen [0m[31mcall Get Bol service to validate[0m             [90m# APItestStepDef.call_Get_Bol_service_to_validate()[0m
+      [31mjava.lang.NullPointerException
+      	at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)
+      	at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)
+      	at ✽.Then call Get Bol service to validate(japancompliance.feature:7)
+      [0m
+
+  @APIcall01
+  Scenario: To check the creation BOL using post call [90m# japancompliance.feature:5[0m
+    #When BOL data is post using post call
+    [31mThen [0m[31mcall Get Bol service to validate[0m             [90m# APItestStepDef.call_Get_Bol_service_to_validate()[0m
+      [31mjava.lang.NullPointerException
+      	at apiTest.UserTest.GetRequestBilloflading(UserTest.java:55)
+      	at stepdefs.APItestStepDef.call_Get_Bol_service_to_validate(APItestStepDef.java:36)
+      	at ✽.Then call Get Bol service to validate(japancompliance.feature:7)
+      [0m

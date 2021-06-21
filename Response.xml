@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<responseMessage>
+    <sourceID>DK CUSTOMS</sourceID>
+	<sendingCountry>DK</sendingCountry>
+	<responseType>ACK</responseType>
+	<EDITransmissionRefNumber>IDCHECK</EDITransmissionRefNumber>
+	<iChgCtrl>IDCHECK</iChgCtrl>
+	<sentTS>2020-10-07T19:49:42</sentTS>
+	<recdTS>2020-10-07T19:55:37</recdTS>
+	<receiverReference>CH050418_ICS5</receiverReference>
+	<receiverReferenceDate>2020-10-07T19:55:37</receiverReferenceDate>
+	<responseData>
+		<billOfLadingNumber>BOL</billOfLadingNumber>
+		<status>APPROVED</status>
+		<responseDetail>	<!-- Optional -->
+			 <errorCode>0</errorCode>
+			 <errorDescription>None</errorDescription>
+			 <remarks>		<!-- Optional -->
+				<message>No error.accepted by custom.</message>
+			</remarks>
+		</responseDetail> 
+	</responseData>
+</responseMessage>

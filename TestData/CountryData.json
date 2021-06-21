@@ -1,0 +1,32 @@
+[{
+    "Country":[ {
+        "StartPoint": "FIHELST",
+        "StartPointGeoCode": "0MZSJ9SROEGKD",
+        "EndPoint": "FIKTKCT",
+        "EndPointGeoCode": "0MZSJ9SROEGKD",
+        "Vessel": "5X7",
+         "inboundVoyageNumber": "1327",
+        "outboundVoyageNumber": "1327"
+    }]},
+    {
+    "Country":[ {
+        "StartPoint": "SEAGH01",
+        "StartPointGeoCode": "0MZSJ9SROEGKD",
+        "EndPoint": "DKAARPT",
+        "EndPointGeoCode": "2LME4YKE32WZJ",
+        "Vessel": "1VM",
+         "inboundVoyageNumber": "004E",
+        "outboundVoyageNumber": "949W"
+    }]},
+   {
+    "Country":[ {
+        "StartPoint": "DKAARPT",
+        "StartPointGeoCode": "0MZSJ9SROEGKD",
+        "EndPoint": "DEBRVTM",
+        "EndPointGeoCode": "2LME4YKE32WZJ",
+        "Vessel": "1VM",
+        "inboundVoyageNumber": "004E",
+        "outboundVoyageNumber": "949W"
+    }]}
+   
+]

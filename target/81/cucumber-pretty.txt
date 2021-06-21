@@ -1,0 +1,12 @@
+@Amendment
+Feature: Amendment Creation,Submission and Validation
+
+  @ContainerNoChange
+  Scenario Outline: Amendment Validation for Container no. change                                                              [90m# Amendment.feature:5[0m
+    [36mWhen [0m[36muser amends booking information for "<Event>" with "<parameter>" having "<value>" with "<dqeApplicable>" for "<type>"[0m
+
+    Examples: 
+
+  @Amendment @ContainerNoChange
+  Scenario Outline: Amendment Validation for Container no. change                                                                                  [90m# Amendment.feature:9[0m
+    [32mWhen [0m[32muser amends booking information for "[0m[32m[1mIssue_Amended_Verify_Copy_of_TPDOC_Closed[0m[32m" with "[0m[32m[1mutyyututu[0m[32m" having "[0m[32m[1mUPDT12[0m[32m" with "[0m[32m[1mAMD[0m[32m" for "[0m[32m[1mgeneral[0m[32m"[0m [90m# AmdStepDef.user_amends_booking_information_for_with_having_with_for(String,String,String,String,String)[0m
